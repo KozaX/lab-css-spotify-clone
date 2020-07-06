@@ -6,3 +6,170 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open sans', Arial, Helvetica, sans-serif;
+  padding-bottom: 3rem;
+}
+
+h1,
+h3,
+h5,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.header-container {
+  padding: 17rem 0;
+  background-image: url('/images/landing.jpg');
+  background-size: 100% 100%;
+  text-align: center;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+  background-color: #fff;
+}
+
+header > img {
+  width: 11rem;
+  height: 3.5rem;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  margin: 0 1rem;
+  font-size: 1.5rem;
+}
+
+.header-container h1 {
+  font-size: 5rem;
+  color: #fff;
+  font-weight: 600;
+}
+.header-container p {
+  font-size: 1.75rem;
+  color: #fff;
+  font-weight: 200;
+}
+
+.header-container p:first-of-type {
+  margin-top: 2rem;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  margin-top: 4rem;
+}
+
+main .row {
+  display: flex;
+  justify-content: space-around;
+}
+
+main .row .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  width: 25%;
+}
+
+main h3 {
+  display: block;
+  line-height: 200%;
+  border-bottom: #00b172 solid 3px;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+main h5 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #00b172;
+}
+main p {
+  font-size: 1.2rem;
+}
+
+.container .icon {
+  width: 100px;
+  height: 83px;
+
+  margin-bottom: 1rem;
+}
+
+.section-container {
+  display: flex;
+  background-color: #00b172;
+  margin-top: 6rem;
+  color: #fff;
+  justify-content: space-evenly;
+}
+
+.section-container h3 {
+  display: inline;
+  padding-bottom: 0.5rem;
+  border-bottom: #ffffff solid 3px;
+  font-size: 2rem;
+}
+
+.section-container img {
+  width: 350px;
+}
+
+.section-container .col {
+  margin: 3rem 3rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-container .col-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-container h5 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.section-container p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
